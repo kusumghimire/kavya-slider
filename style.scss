@@ -1,0 +1,19 @@
+
+.k-img-slider{
+    display: flex;
+    figure{
+        margin: 0.5rem;
+        img{
+            height: 96px;
+            width: 96px;
+            border-radius: 50%;
+        }
+        figcaption{
+            text-align: center;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        overflow-x: scroll;    
+    }
+}

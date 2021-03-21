@@ -1,0 +1,26 @@
+.k-img-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.k-img-slider figure {
+  margin: 0.5rem;
+}
+
+.k-img-slider figure img {
+  height: 96px;
+  width: 96px;
+  border-radius: 50%;
+}
+
+.k-img-slider figure figcaption {
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .k-img-slider {
+    overflow-x: scroll;
+  }
+}
+/*# sourceMappingURL=style.css.map */
